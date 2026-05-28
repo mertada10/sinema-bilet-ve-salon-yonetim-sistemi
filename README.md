@@ -58,4 +58,4 @@ python main.py
 
 - **Ad Soyad:** [Mert ADA] | **Öğrenci No:** [2519181041]
 - **Ad Soyad:** [Necati Fehmi Bal] | **Öğrenci No:** [Öğrenci Numarası]
-- **Ad Soyad:** [Furkan Ada Seval] | **Öğrenci No:** [Öğrenci Numarası]
+- **Ad Soyad:** [Furkan Ada Seval] | **Öğrenci No:** [2519181027]
