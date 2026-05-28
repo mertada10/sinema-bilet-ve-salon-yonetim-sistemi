@@ -57,5 +57,5 @@ python main.py
 **Ders:** [Programlama 2]
 
 - **Ad Soyad:** [Mert ADA] | **Öğrenci No:** [2519181041]
-- **Ad Soyad:** [Necati Fehmi Bal] | **Öğrenci No:** [Öğrenci Numarası]
+- **Ad Soyad:** [Necati Fehmi Bal] | **Öğrenci No:** [2519181015]
 - **Ad Soyad:** [Furkan Ada Seval] | **Öğrenci No:** [2519181027]
