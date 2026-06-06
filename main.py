@@ -670,7 +670,7 @@ class SinemaSistemi:
         # Geçerli ve boş bir koltuk seçilene kadar çalışan doğrulama döngüsü.
         while True:
             try:
-                sira = input("Koltuk Sırası (örn: 'A-H'): ").strip().upper()
+                sira = input("Koltuk Sırası (örn: 'A-B-C'): ").strip().upper()
                 numara = int(input("Koltuk Numarası (örn: '1-10'): "))
 
                 # Girilen koltuğun salon şemasına ve sınır değerlere uygunluğunu kontrol eder.
@@ -808,7 +808,7 @@ class SinemaSistemi:
         # Geçerli ve iptal edilebilir bir koltuk seçilene kadar çalışan doğrulama döngüsü.
         while True:
             try:
-                sira = input("İptal Edilecek Koltuk Sırası (A-H): ").strip().upper()
+                sira = input("İptal Edilecek Koltuk Sırası (A-B-C): ").strip().upper()
                 numara = int(input("İptal Edilecek Koltuk Numarası (1-10): "))
 
                 if sira in secilen_seans.koltuklar and 1 <= numara <= 10:                   
@@ -827,7 +827,7 @@ class SinemaSistemi:
                     else:
                         print(f"\nHata: {sira}{numara} koltuğu zaten boş! İptal edilecek bir bilet yok.")
                 else:
-                    print("\nHata: Geçersiz koltuk seçimi! Sıra A-H, numara 1-10 arasında olmalıdır.")
+                    print("\nHata: Geçersiz koltuk seçimi!")
 
             except ValueError:
                 print("Hata: Lütfen geçerli bir koltuk seçin!")
