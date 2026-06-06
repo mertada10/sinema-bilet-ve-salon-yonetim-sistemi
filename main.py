@@ -808,7 +808,7 @@ class SinemaSistemi:
         # Geçerli ve iptal edilebilir bir koltuk seçilene kadar çalışan doğrulama döngüsü.
         while True:
             try:
-                sira = input("İptal Edilecek Koltuk Sırası (A-B-C): ").strip().upper()
+                sira = input("İptal Edilecek Koltuk Sırası (örn: A-B-C): ").strip().upper()
                 numara = int(input("İptal Edilecek Koltuk Numarası (1-10): "))
 
                 if sira in secilen_seans.koltuklar and 1 <= numara <= 10:                   
